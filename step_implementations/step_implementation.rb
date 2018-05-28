@@ -20,13 +20,6 @@ step 'Almost all words have vowels <table>' do |words_table|
   end
 end
 
-step 'generate step implementation' do ||
-  for i in 0..1000
-    puts "step 'step #{i}.' do ||\n\tassert_equal(1,1)\nend\n"
- end
-end
-
-
 def count_vowels(string)
   string.count(@vowels.to_s)
 end

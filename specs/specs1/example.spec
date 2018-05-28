@@ -9,7 +9,7 @@ To execute this specification, run
 
 
 * Vowels in English language are "aeiou".
-* generate step implementation
+
 ## Vowel counts in single word
 
 tags: single word
